@@ -1,0 +1,142 @@
+
+main
+{
+    padding: 50px 50px;
+    /* min-height: 100vh; */
+    background-color: #0B2233;
+
+}
+span
+{
+    color: #FF7603;
+    font-weight: 800;
+    font-family: 'exp';
+}
+h1
+{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-family: 'exp';
+}
+svg
+{
+    color: white;
+}
+
+#border
+{
+    border-left: 1px solid #FF7603;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+#marginleft
+{
+    margin-left: 20px;
+}
+button
+{
+    padding: 5px 22px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: #FF7603;
+
+}
+#float
+{
+    float: right;
+    
+} */
+
+/* @meadia */
+
+/* @media only screen and (max-width: 1000px) and (min-width: 0)
+{
+    #float
+{
+    float: none;
+}
+
+}
+
+
+
+/* ******************************************************************* */
+
+#background
+{
+    background-color: #0B2233;
+    padding: 20px;
+}
+#topping
+{
+margin-top: 60px;
+}
+#bopping
+{
+margin-top: 70px;
+margin-bottom: 60px;
+}
+#mobiletext
+{
+    /* font-size: 14px */
+    font-weight: 400;
+    
+}
+#mobbtn
+{ 
+    margin-top: 20px;
+    border-radius: 3px;
+    display: flex;
+    justify-content:space-around;
+}
+#mobbutton1
+{
+    padding: 8px 25px;
+    border: 0;
+    background-color: #FF7603;
+    color: white;
+}
+#mobbutton2
+{
+    padding: 8px 25px;
+    border: 0;
+    background-color: #FF7603;
+    color: white;
+}
+
+#desktop {
+    display: block; 
+}
+  #mobile {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 756px) {
+    #desktop {
+      display: none; 
+    }
+  
+    #mobile {
+      display: block; 
+    }
+  }
+
+  @media only screen and (max-width: 448px) and (min-width:100px)
+  {
+    #mobiletext
+    {
+font-size: 11px !important;
+
+    }
+    #mobbtn
+{ 
+    margin-top: 20px;
+    border-radius: 3px;
+    display: flex;
+    justify-content:space-between;
+}
+  }

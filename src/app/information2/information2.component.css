@@ -1,0 +1,176 @@
+main
+{
+    padding: 60px 60px;
+    min-height: 100vh;
+    background-color: #FF7603;
+}
+h1
+{
+    color: white;
+    font-weight: 800;
+    font-family: 'bbbd';
+}
+.head
+{
+    margin-top: 160px;
+}
+.mar
+{
+    margin-top: 3rem;
+}
+span
+{
+    color: #0B2233;
+    font-family: 'bbbd';
+}
+
+#border
+{
+    border-left: 1px solid #0B2233;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#marginleft
+{
+    margin-left: 20px;
+}
+button
+{
+    padding: 5px 22px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: #0B2233;
+
+}
+#leftline
+{
+    border-left:1px solid #0B2233 ;
+    padding-left: 25px;
+}
+.content
+{
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+}
+
+.card{
+    border: 0;
+    border-radius: 0 !important;
+    background-color: #0B2233;
+    padding: 20px 35px;
+}
+
+h3
+{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.colors
+{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+#left
+{
+    margin-left: 17px;
+}
+.mpmp
+{
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+
+@media only screen and (max-width: 756px) and (min-width:100px)
+{
+main
+{
+padding: 0px 10px;
+}
+.mar
+{
+    margin-top: 0px;
+}
+.iamge1{
+    padding: 17px;
+        margin-top: 28px;
+}
+.head
+{
+    margin-top: -38px;
+}
+#marginleft
+{
+    margin-left: 0px;
+}
+svg
+{
+    display: none;
+}
+#border
+{
+    border-left: 0px solid #0B2233; 
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#button
+{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#leftline
+{
+    border-left:0px solid #0B2233 ;
+    padding-left: 10px;
+}
+#h1text
+{
+    font-size: 25px;
+}
+.imghide
+{
+    display: none;
+}
+.mpmp
+{
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom:50px ;
+}
+.card{
+    border: 0;
+    border-radius: 0 !important;
+    background-color: #0B2233;
+    padding: 4px 5px;
+}
+h3
+{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.colors
+{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+h1
+{
+    color: white;
+    font-weight: 800;
+    font-family: 'bbbd';
+    margin-top: 28px;
+}
+}

@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'willgray';
+    src: url('./dd.otf');
+  }
+  @font-face {
+    font-family: 'bbbd';
+    src: url('./eee.otf');
+  }
+  @font-face {
+    font-family: 'exp';
+    src: url('./exb.otf');
+  }
+  @font-face {
+    font-family: 'boo';
+    src: url('./soso.otf');
+  }
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'willgray';
+}

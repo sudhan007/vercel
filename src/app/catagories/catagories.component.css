@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1
+{
+    font-family: 'bbbd';
+    color: #0B2233;
+    font-weight: 900;
+    
+}
+h4
+{
+    color: #FFFFFF;
+    font-family: 'bbbd'; 
+    font-weight: 900;
+}
+span
+{
+    color:#FF7603 ;
+    font-family: 'bbbd'; 
+    font-weight: 900;
+}
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1420px;
+}
+}
+
+.card
+{
+background-color: #0B2233;
+border-radius: 5px !important;
+height: 100%;
+}
+p
+{
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+
+.card-body{
+    padding: 27px !important;
+}
+
+
+
+/* .row
+{
+    padding: 0px 80px;
+} */
+
+/* meadia screen */
+
+@media only screen and (max-width: 800px)
+{
+    p
+    {
+      display: none;
+    }
+    
+ 
+}
+@media only screen and (max-width: 1000px) and (min-width:700px)
+{
+    .row
+    {
+      padding: 0px 35px !important;
+      
+      
+    }
+    p
+    {
+        font-size: 10px;
+        padding: 8px;
+    }
+    .card-body{
+        padding: 8px !important;
+    }
+    
+    h4
+{
+    color: #FFFFFF;
+    font-family: 'bbbd'; 
+    font-size: 14px;
+    font-weight: 400;
+}
+}
+
+
+@media only screen and (max-width: 699px) and (min-width:400px)
+{
+    .card-body{
+        padding: 8px !important;
+    }
+ 
+    p
+    {
+        font-size: 10px;
+        padding: 8px;
+    }
+   
+    h4
+{
+    color: #FFFFFF;
+    font-family: 'bbbd'; 
+    font-size: 10px;
+    font-weight: 400;
+}
+}
+
+
+@media only screen and (max-width: 399px) and (min-width:200px)
+{
+    /* .row
+    {
+      padding: 0px 5px;
+      gap:0px !important;
+    }
+    .card-body{
+        padding: 6px !important;
+    }
+
+    h4
+{
+    color: #FFFFFF;
+    font-family: 'bbbd'; 
+    font-size: 10px;
+    font-weight: 400;
+}
+.card
+{
+background-color: #0B2233;
+height: 100%;
+padding: 10px;
+}
+
+.afcsdfcds{
+    width: 30px;
+    height: 30px;
+    margin: auto !important;
+    margin-top: 10px !important;
+}
+.xvxvxfvfs{
+    height: 90% !important;
+}
+.card-title{
+    margin-top: 7px !important;
+} */
+.card-body{
+    padding: 8px !important;
+}
+
+p
+{
+    font-size: 8px;
+    padding: 8px;
+}
+
+h4
+{
+color: #FFFFFF;
+font-family: 'bbbd'; 
+font-size: 8px;
+font-weight: 400;
+}
+.afcsdfcds{
+    width: 30px;
+    height: 30px;
+    margin: auto !important;
+    margin-top: 10px !important;
+}
+.xvxvxfvfs{
+    height: 90% !important;
+}
+.card-title{
+    margin-top: 7px !important;
+} 
+}

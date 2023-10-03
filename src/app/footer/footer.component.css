@@ -1,0 +1,209 @@
+*
+{
+padding: 0;
+margin: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+}
+.toop
+{
+    margin-top: 3rem;
+}
+
+main
+{
+    min-height: 100vh;
+    background-color: #FBF9F9;
+}
+#box
+{
+    width: 85%;
+    border: 1px solid #0B2233;
+    position: relative;
+    top: -3px;
+    align-items: center;
+    text-align: center;
+    padding:19px 19px 19px 17px;
+    background-color: #0B2233;
+    box-shadow: 1px 4px 5px rgb(162, 162, 162) ;
+    clip-path: polygon(6% 0, 100% 0, 100% 0%, 91% 100%, 0 100%, 0 0%);
+}
+
+h1
+{
+    color: white;
+    font-weight: 800;
+    font-family: 'bbbd';
+}
+h1 span
+{
+    color: #FF7603;
+}
+
+#padd
+{
+    padding: 50px 60px;
+}
+#padd1
+{
+    padding: 0px 70px;
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.content
+{
+    font-size: 17px;
+    color:  #000000;
+    font-weight: 500;
+}
+.team
+{
+    text-align: center;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'bbbd';
+}
+#teamtext
+{
+    font-size: 22px;
+    color:  #000000;
+    font-weight: 500;
+}
+#leftfoot
+{
+    border: 0px solid black;
+    /* min-height: 100px; */
+    background-color: #0B2233;
+    
+}
+#footright
+{
+    border: 0px solid black;
+    /* min-height: 100px; */
+    background-color: #0F2F46;
+
+}
+.footheading
+{
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#last
+{
+    color: white;
+    justify-content: end;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+footer
+{
+    height: 30px;
+    background-color: #FF7603;
+}
+.down
+{
+    text-align: center;
+    margin-top: 75px;
+    color: white;
+    font-size: 24px;
+}
+
+#left
+{
+padding-right: 20px;
+}
+
+#teamtext1
+{
+    display: none;
+}
+@media only screen and (max-width: 767px) and (min-width:100px)
+{
+    #padd1
+    {
+        background-color: 
+        #0B2233;
+        color: white;
+        padding: 15px 10px !important;
+    }
+    .team
+{
+    margin-left: 50px;
+    text-align: left;
+    color: white;
+    font-weight: 800;
+    font-family: 'bbbd';
+}
+    h1
+    {
+        font-size: 18px;
+    }
+    #padd
+{
+    padding: 30px 25px;
+}
+#padd1
+{
+    padding: 0px 15px;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+}
+#teamtext1
+{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+#teamtext
+{
+    display: none;
+}
+.toop
+{
+    margin-top: 0;
+}
+#leftfoot
+{
+    margin-top: 0px !important;
+    color: white;
+    padding: 25px 20px 30px 25px;
+    font-size: 15px;
+    background-color: #0F2F46;
+}
+.down
+{
+    text-align: left;
+    color: white;
+    margin-top: 20px !important;
+    font-size: 18px;
+}
+#footright
+{
+    display: none;
+}
+footer
+{
+    display: none;
+}
+
+}
+@media only screen and (max-width: 400px) and (min-width:100px)
+
+{
+    #mobimg
+    {
+        height: 115px;
+    }
+}
+
